@@ -1,0 +1,22 @@
+/* assests/css/custom.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: lem;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: lem;
+  text-align: center;
+}
