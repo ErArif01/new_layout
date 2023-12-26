@@ -1,0 +1,26 @@
+<!-- _layout/custom.html -->
+
+---
+layout: default
+---
+<DOCTYPE html>
+
+  <html lang="en">
+  <head>
+    <meta charset= "UTF-8">
+    <title> {{ new_layout </title> | default: site.title }} </title>
+
+    <link rel= "stylesheet" href="/assests/css/custom.css>
+      
+  </head>
+      <body>
+      <header>
+      <h1> {{ new_layout | default: site.title}}</h1>
+      </header>
+      <main> {{ content }} </main>
+      <footer>
+      <p> &copy; 2023 Mohd Arif </p>
+      </footer>
+      </body>
+    
+  </html>
